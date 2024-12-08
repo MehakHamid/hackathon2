@@ -34,7 +34,7 @@ export function SiteHeader() {
 
 
             <div className="flex items-center space-x-6">
-              <Link href="/about" className="text-sm text-gray-600 hover:text-gray-900">
+              <Link href="/About" className="text-sm text-gray-600 hover:text-gray-900">
                 About us
               </Link>
               <Link href="/contact" className="text-sm text-gray-600 hover:text-gray-900">
@@ -47,7 +47,7 @@ export function SiteHeader() {
                 <Search className="h-5 w-5" />
                 <span className="sr-only">Search</span>
               </button>
-              <Link href="/cart" className="hover:text-gray-600">
+              <Link href="/Shoppingcart" className="hover:text-gray-600">
                 <ShoppingCart className="h-5 w-5" />
                 <span className="sr-only">Cart</span>
               </Link>
